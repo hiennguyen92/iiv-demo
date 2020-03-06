@@ -125,7 +125,7 @@ class MainScreen extends Component {
           showsVerticalScrollIndicator={false}
           ListHeaderComponent={this.renderFooterList}
           ListFooterComponent={this.renderFooterList}
-          onEndReached={this.loadMoreData}
+          // onEndReached={this.loadMoreData}
         />
       );
     } else if (this.state.getList.err) {
